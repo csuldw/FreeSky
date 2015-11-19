@@ -50,7 +50,7 @@
 
   a {
     color: $grey-dark;
-    border-bottom-color: $black-light;
+    border-bottom-color: $gray-link;
     &:hover { color: $gainsboro; }
   }
 
@@ -74,10 +74,11 @@
 .site-author-image {
   display: block;
   margin: 0 auto;
-  max-width: 96px;
+  max-width: 110px;
   height: auto;
-  border: 2px solid #CCC;
+  border: 2px solid #FFF;
   padding: 1px;
+  border-radius: 50%;
 }
 
 .site-author-name {
@@ -99,7 +100,7 @@
 .site-state-item {
   display: inline-block;
   padding: 0 15px;
-  border-left: 1px solid #333;
+  border-left: 1px solid #gray-link;
 
   &:first-child {
     border-left: none;
@@ -154,7 +155,7 @@
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: $black-light;
+  border-bottom-color: $gray-link;
   font-size: 13px;
 
   &:before {
@@ -165,7 +166,7 @@
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: rgb(random-color(0, 255) - 50%, random-color(0, 255) - 50%, random-color(0, 255) - 50%);
+    background: #909297;
   }
 }
 

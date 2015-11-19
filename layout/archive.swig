@@ -25,7 +25,7 @@
       {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('come_on') }}
     </span>
 
-    {% for post in page.posts %}
+    {% for post in page.posts %} <!--page.posts/site.pages-->
 
       {# Show year #}
       {% set year %}

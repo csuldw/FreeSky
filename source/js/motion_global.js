@@ -257,7 +257,7 @@ $(document).ready(function () {
       });
 	  $('.post').velocity('transition.slideDownIn', {
         display: null,
-		stagger: 500,
+		stagger: 400,
         complete: function () {
           integrator.next();
         }
@@ -272,7 +272,7 @@ $(document).ready(function () {
 
       function postMotion () {
         var postMotionOptions = window.postMotionOptions || {
-            stagger: 300,
+            stagger: 200,
             drag: true
           };
         postMotionOptions.complete = function () {
