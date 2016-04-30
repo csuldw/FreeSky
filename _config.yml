@@ -5,7 +5,7 @@ menu:
   categories: /categories
   tags: /tags
   about: /about
-  commonweal: /donation
+  #commonweal: /donation
 
 
 # Enable/Disable menu icons.

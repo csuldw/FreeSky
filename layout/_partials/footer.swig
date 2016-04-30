@@ -17,6 +17,17 @@
   <a class="theme-link" href="#">
     FreeSky{% if theme.scheme %}.{{ theme.scheme }}{% endif %}
   </a>(Reserved)
+
+  <!--
+  <span id="busuanzi_container_site_uv">
+     &nbsp; | &nbsp;  访客<span id="busuanzi_value_site_uv"></span>人
+  </span>
+  <span id="busuanzi_container_site_pv">
+    &nbsp; | &nbsp;  总访问量<span id="busuanzi_value_site_pv"></span>次
+  </span>
+  -->
+  
 </div>
 
 {% block footer %}{% endblock %}
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -5,7 +5,7 @@
 
 .header { border:1px solid #ECECEC; z-index:999;position: relative; }
 
-.header-inner { position: relative; z-index:8888;}
+.header-inner { position: relative; z-index:8888; padding: 40px 0 20px;}
 
 .site-meta {
   margin: 0;
@@ -89,9 +89,10 @@
 // Menu
 // --------------------------------------------------
 .menu {
-  margin-top: 20px;
+  margin-top: 48px;
   padding-left: 33px;
   text-align: left;
+  color: $blue-deep;
 }
 
 .menu .menu-item {
@@ -110,7 +111,7 @@
     transition-property: border-color;
     the-transition();
 
-    &:hover { border-bottom-color: $menu-link-hover-border; }
+    &:hover { border-bottom-color: $menu-link-border; }
   }
 }
 

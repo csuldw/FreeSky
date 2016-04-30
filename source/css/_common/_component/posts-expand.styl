@@ -21,6 +21,7 @@
 .posts-expand .post-title {
   font-size: 22px;
   text-align: center;
+  color: $blue-title;
   word-break: break-word;
 
   +mobile() {
@@ -30,7 +31,7 @@
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: $black-light;
+  color: $blue-title;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -42,7 +43,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: $blue-deep;
     visibility: hidden;
     transform: scaleX(0);
     the-transition();
@@ -57,8 +58,8 @@
 }
 
 .posts-expand .post-meta {
-  margin: 3px 0 15px 0;
-  color: $grey-dark;
+  margin: 10px 0 15px 0;
+  color: $blue-link;
   font-size: 12px;
   text-align: center;
 
@@ -70,6 +71,7 @@
   .post-category-list-link {
     color: $grey-dark;
   }
+
 }
 
 .posts-expand .post-comments-count {
@@ -88,7 +90,7 @@
     box-sizing: border-box;
     margin: auto;
     padding: 3px;
-    border: 1px solid $gray-lighter;
+    //border: 1px solid $gray-lighter;
   }
 }
 

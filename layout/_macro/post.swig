@@ -78,7 +78,6 @@
             &nbsp; | &nbsp;
             <div class="fb-like" data-layout="button_count" data-share="true"></div>
           {% endif %}
-
         </div>
       </header>
     {% endif %}

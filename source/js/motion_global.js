@@ -91,7 +91,7 @@ $(document).ready(function () {
   sidebarToggleLines.push(sidebarToggleLine3rd);
 
   var SIDEBAR_WIDTH = '320px';
-  var SIDEBAR_DISPLAY_DURATION = 300;
+  var SIDEBAR_DISPLAY_DURATION = 100;
 
   var sidebarToggleMotion = {
     toggleEl: $('.sidebar-toggle'),
@@ -198,7 +198,7 @@ $(document).ready(function () {
       hasElement($title) && sequence.push({
         e: $title,
         p: {opacity: 1, top: 0},
-        o: { duration: 200 }
+        o: { duration: 100 }
       });
 
       hasElement($subtitle) && sequence.push({
@@ -222,7 +222,7 @@ $(document).ready(function () {
           e: $(element),
           p: {translateX: translateX},
           o: {
-            duration: 500,
+            duration: 300,
             sequenceQueue: false
           }
         };
@@ -250,14 +250,14 @@ $(document).ready(function () {
       });
 	  $('.archive').velocity('transition.slideDownIn', {
         display: null,
-		stagger: 150,
+		stagger: 10,
         complete: function () {
           integrator.next();
         }
       });
 	  $('.post').velocity('transition.slideDownIn', {
         display: null,
-		stagger: 400,
+		stagger: 10,
         complete: function () {
           integrator.next();
         }

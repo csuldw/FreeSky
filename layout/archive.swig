@@ -24,9 +24,9 @@
       {% endif %}
       {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('come_on') }}
     </span>
-
+	
+	
     {% for post in page.posts %} <!--page.posts/site.pages-->
-
       {# Show year #}
       {% set year %}
       {% set post.year = date(post.date, 'YYYY') %}
@@ -40,7 +40,6 @@
       {# endshow #}
 
       {{ post_template.render(post) }}
-
     {% endfor %}
 
   </section>

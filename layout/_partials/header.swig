@@ -44,7 +44,7 @@
           </a>
         </li>
       {% endif %}
-	  	<span style="font-size:14px;float:right;padding-top:39px">{{ config.subtitle }}</span>
+	  	<span style="font-size:14px;float:right;padding:39px 40px 0 0;">{{ config.subtitle }}</span>
     </ul>
   {% endif %}
 
