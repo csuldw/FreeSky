@@ -1,2 +1,3 @@
-# FreeSky Hexo 主题
+## FreeSky Hexo 主题
+
 
