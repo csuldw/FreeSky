@@ -55,7 +55,7 @@
     <div class="back-to-top"></div>
   </div>
 
-  <script type="text/javascript" src="{{ url_for(theme.vendors) }}/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="{{ url_for(theme.others) }}/jquery/index.js?v=2.1.3"></script>
 
   {# This block is used to set options before any other scripts run #}
   {% block script_extra_before %}{% endblock %}
@@ -68,7 +68,7 @@
   {% include '_scripts/motion.swig' %}
 
   <script type="text/javascript" src="{{ url_for(theme.js) }}/nav-toggle.js?v={{ theme.version }}"></script>
-  <script type="text/javascript" src="{{ url_for(theme.vendors) }}/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="{{ url_for(theme.others) }}/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   {% block script_extra %}{% endblock %}
 
@@ -100,5 +100,8 @@
       });
     });
   </script>
+  {% if theme.leancloud_visitors.enable %}
+     {% include '_scripts/lean-analytics.swig' %}
+  {%  endif %}
 </body>
 </html>

@@ -5,7 +5,7 @@ menu:
   categories: /categories
   tags: /tags
   about: /about
-  #commonweal: /donation
+#  commonweal: /donation
 
 
 # Enable/Disable menu icons.
@@ -87,6 +87,12 @@ auto_excerpt:
 # Use Lato font
 use_font_lato: true
 
+
+leancloud_visitors:
+  enable: true
+  app_id: VmAcWiBwF1SdavvjD8vkHJLn-gzGzoHsz
+  app_key: cmuscA82gXyC9N1tgjH1m8bK
+
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
@@ -121,6 +127,9 @@ vendors: vendors
 css: css
 js: js
 images: images
+others: others 
+
+
 
 # Theme version
 version: 0.4.5.2

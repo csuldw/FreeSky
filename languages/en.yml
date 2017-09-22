@@ -18,9 +18,10 @@ sidebar:
 post:
   posted: Posted on
   in: In
-  read_more: Read more
+  read_more: Read More
   untitled: Untitled
   toc_empty: This post does not have a Table Of Contents
+  visitors: views
 
 page:
   totally: Totally
@@ -65,3 +66,5 @@ keep_on: Keep on posting.
 symbol:
   comma: ', '
   period: '. '
+
+come_on: Keep going!
