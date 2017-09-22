@@ -1,6 +1,6 @@
 ## FreeSky Hexo 主题
 
-本主题源自Hexo Next主题，经过笔者长期以来的修改，源代码中很多地方都有所变动，因此决定将其重新命名为FreeSky，目前版本为[v0.4.0](https://github.com/csuldw/FreeSky/releases/tag/v0.4.0)。对于本主题，后续会不断在此主题上增加新的样式和功能，敬请关注。
+本主题源自Hexo Next主题，经过笔者长期以来的修改，源代码中很多地方都有所变动，因此决定将其重新命名为FreeSky，目前版本为[FreeSky v0.4.0](https://github.com/csuldw/FreeSky/releases/tag/v0.4.0)。对于本主题，后续会不断在此主题上增加新的样式和功能，敬请关注。
 
 ### 使用技术
 
