@@ -205,4 +205,22 @@ grep -rn "vendors" *
   }
 }
 
+7、文章日期格式修改
+
+将`layout/_macro/post.swig`文件中的
+
+```
+<span class="post-time">
+  {{ __('post.posted') }}
+  <time itemprop="dateCreated" datetime="{{ moment(post.date).format() }}" content="{{ date(post.date, config.date_format) }}">
+    {{ date(post.date, config.date_format) }}
+  </time>
+</span>
+```
+里面第五行内容修改为
+
+```
+{{ date(post.date, "YYYY-MM-DD HH:mm") }}
+```
+
 ```
