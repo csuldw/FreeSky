@@ -7,6 +7,19 @@
 - Nodejs
 - Swig
 
+### 效果展示
+
+链接：http://www.csuldw.com
+
+#### 主页截图
+
+![](./source/images/freesky-index.png)
+
+#### article列表
+
+![](./source/images/freesky-article.png)
+
+
 ### 修改历史（部分）
 
 1.修改blockquote属性，位于source/css/_common/_core目录下的base.styl文件中
