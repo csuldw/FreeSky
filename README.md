@@ -5,7 +5,8 @@
 ### 使用技术
 
 - Nodejs
-- Swig
+- Swig模板引擎
+- yaml
 
 ### 效果展示
 
