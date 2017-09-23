@@ -7,6 +7,10 @@
 - Nodejs
 - Swig模板引擎
 - yaml
+- html
+- css
+- JavaScript
+- 其他插件
 
 ### 效果展示
 
