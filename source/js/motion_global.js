@@ -283,25 +283,6 @@ $(document).ready(function () {
         $post.velocity('transition.slideDownIn', postMotionOptions);
       }
     },
-	
-	contentList: function (integrator) {
-      var $post = $('.archive');
-      var hasPost = $post.size() > 0;
-
-      hasPost ? postMotion() : integrator.next();
-
-      function postMotion () {
-        var postMotionOptions = window.postMotionOptions || {
-            stagger: 200,
-            drag: true
-          };
-        postMotionOptions.complete = function () {
-          integrator.next();
-        };
-
-        $post.velocity('transition.slideDownIn', postMotionOptions);
-      }
-    },
 
     backToTop: function (integrator) {
       var b2top = $('.back-to-top');
