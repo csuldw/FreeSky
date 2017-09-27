@@ -25,7 +25,7 @@ function escapeSelector (selector) {
 function displaySidebar () {
   setTimeout(function () {
     $('.sidebar-toggle').trigger('click');
-  }, 800);
+  }, 1000);
 }
 
 function isMist () {

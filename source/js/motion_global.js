@@ -95,13 +95,13 @@ $(document).ready(function () {
 
   var sidebarToggleMotion = {
     toggleEl: $('.sidebar-toggle'),
-    sidebarEl: $('.sidebar'),
-    isSidebarVisible: false,
+    sidebarEl: $('.sidebar '),
+    isSidebarVisible: false,  //isSidebarVisible: true
     init: function () {
       this.toggleEl.on('click', this.clickHandler.bind(this));
       this.toggleEl.on('mouseenter', this.mouseEnterHandler.bind(this));
       this.toggleEl.on('mouseleave', this.mouseLeaveHandler.bind(this));
-
+      //this.showSidebar(); 
       $(document)
         .on('sidebar.isShowing', function () {
           isDesktop() && $('body').velocity('stop').velocity(
@@ -110,6 +110,7 @@ $(document).ready(function () {
           );
         })
         .on('sidebar.isHiding', function () {
+
         });
     },
     clickHandler: function () {
@@ -132,7 +133,7 @@ $(document).ready(function () {
       var self = this;
 
       sidebarToggleLines.close();
-
+      //isDesktop() && $('body').velocity('stop').velocity({paddingRight: SIDEBAR_WIDTH});
       this.sidebarEl.velocity('stop').velocity({
           width: SIDEBAR_WIDTH
         }, {
@@ -320,7 +321,7 @@ $(document).ready(function () {
     .add(motionMiddleWares.logo)
     .add(motionMiddleWares.menu)
     .add(motionMiddleWares.sidebarToggle)
-	//.add(motionMiddleWares.postList)
+	  //.add(motionMiddleWares.postList)
     .add(motionMiddleWares.backToTop);
 
   window.motionIntegrator = motionIntegrator;
